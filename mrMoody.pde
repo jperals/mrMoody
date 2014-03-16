@@ -7,7 +7,7 @@ void setup() {
   size(500, 500);
   backgroundColor = 0;
   puppet = new Puppet(this);
-  soundsense = new SoundSense(2);
+  soundsense = new SoundSense(-1);
   //soundsense.printInfo();
 }
 
